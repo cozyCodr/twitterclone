@@ -15,14 +15,22 @@
 }
 
 .image {
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
 }
 
-.profile-card {
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
-  width: 250px;
   height: 70px;
+  width: 100%;
+}
+
+.profile-card {
+  padding: 0.5rem 1rem;
+  position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -31,4 +39,37 @@
 .profile-card:hover {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
+}
+
+/* Medium sized Screen */
+@media screen and (max-width: 1200px) {
+  .username,
+  .userid {
+    position: absolute;
+    display: none;
+  }
+
+  .profile-card {
+    padding: 0;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+  }
+  .profile-container {
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Small Screen Size..Non Mobile */
+
+@media screen and (max-width: 537px) {
+  .profile-container {
+    justify-content: center;
+  }
 }

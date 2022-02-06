@@ -1,0 +1,58 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 23.5%;
+  border-right: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.dash-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.t-icon-container {
+  margin: 1rem 0 2rem 1.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.tabItem {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  margin: 0px;
+}
+
+.tabItem:hover {
+  width: fit-content;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease-in;
+}
+
+.tabItem p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tweet-btn {
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  background: rgb(29, 161, 242);
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 220px;
+  border: none;
+  border-radius: 30px;
+}
+
+/* Medium sized Screen */
+@media screen and (max-width: 1200px) {
+  .dashboard {
+  }
+}

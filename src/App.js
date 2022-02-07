@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Dashboard />
       <Feed />
-      <Sidebar />
+      <Sidebar className='sideNav'/>
     </div>
   );
 }

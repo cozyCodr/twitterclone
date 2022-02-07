@@ -1,7 +1,11 @@
 .App {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100vh;
   color: rgb(219, 219, 219);
+}
+
+.sideNav {
+  background: red;
 }

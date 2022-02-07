@@ -1,9 +1,19 @@
 import React from 'react'
+import './feed.css'
+import Post from './feedComponents/Post'
 
 const Feed = () => {
     return (
-        <div>
-            <h1>Feed</h1>
+        <div className='feed'>
+            <div className="homeNav">
+                <p>Home</p>
+            </div>
+            <section className='whatsHappening'>
+                <Post />
+            </section>
+            <div className='tweetsContainer'>
+                
+            </div>
         </div>
     )
 }

@@ -1,0 +1,79 @@
+:root {
+    --twitterBlue: #1DA1F2;
+    --borderColor: rgba(255, 255, 255, 0.2);
+}
+.post-container {
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    padding-top: 1rem;
+    align-items:flex-start;
+    justify-content: space-around;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--borderColor)
+}
+.profile-pic-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tweet-text-container {
+    width: 80%;
+}
+
+#tweet-input {
+    resize: none;
+    border: none;
+    outline:none;
+    overflow-wrap:break-word;
+    word-wrap: break-word;
+    color: grey;
+    background-color: black;
+    padding: .3rem;
+    font-size:x-large;
+    height: 3rem;
+    width: 90%;
+}
+#tweet-input:active {
+    border: none;
+}
+.attach-buttons {
+    width: 90%;
+    display:flex;
+}
+.tweet-button-container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tweet-button {
+    background-color: var(--twitterBlue);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius:30px;
+    height: 35px;
+    width: 80px;
+}
+.tweet-button:hover {
+    cursor:pointer;
+}
+.attach-icons {
+    height: 40px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+.attach-icon {
+    width: 20px;
+    margin-right: 1rem;
+    fill: var(--twitterBlue);
+}
+@media screen and (max-width: 657px) {
+    .dont-show {
+        display: none;
+    }
+}

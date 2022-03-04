@@ -3,7 +3,6 @@
   margin-right: 1rem;
   fill: rgb(197, 197, 197);
 }
-
 /* Medium Screen Orientation */
 @media screen and (max-width: 1200px) {
   .icon {

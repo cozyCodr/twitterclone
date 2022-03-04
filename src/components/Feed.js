@@ -12,7 +12,7 @@ const Feed = () => {
                 <section className='whatsHappening'>
                     <Post />
                 </section>
-               <div className="tweetsContainer"></div>
+                <div className="tweetsContainer"></div>
             </section>
         </div>
     )

@@ -82,7 +82,7 @@ const Dashboard = () => {
                 {/* Tweet Button */}
                 <Tweetbtn type="Tweet" className="tweet-btn"/>
                 <div className="profile-container">
-                  <ProfileCard className="profile-card"/>
+                    <ProfileCard classProp="profile-card"/>
                 </div>
             </div>     
         </div>

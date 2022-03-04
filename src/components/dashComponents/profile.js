@@ -1,8 +1,8 @@
 import React from 'react';
 import './profile.css'
 
-const profile = () => {
-  return (<div className="profile-card">
+const Profile = (props) => {
+  return (<div className={props.classProp}>
     <div className="img-container">
         <img className='image' src="https://pbs.twimg.com/profile_images/1489304361629102093/_Fbmoh69_400x400.jpg" alt="" />
     </div>
@@ -14,4 +14,4 @@ const profile = () => {
   );
 };
 
-export default profile;
+export default Profile;

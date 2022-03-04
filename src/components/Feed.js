@@ -8,12 +8,12 @@ const Feed = () => {
             <div className="homeNav">
                 <p>Home</p>
             </div>
-            <section className='whatsHappening'>
-                <Post />
+            <section className="scrollable-section">
+                <section className='whatsHappening'>
+                    <Post />
+                </section>
+               <div className="tweetsContainer"></div>
             </section>
-            <div className='tweetsContainer'>
-                
-            </div>
         </div>
     )
 }

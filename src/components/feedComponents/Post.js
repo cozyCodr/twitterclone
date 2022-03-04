@@ -1,5 +1,3 @@
-import React from 'react';
-import Profilepic from '../dashComponents/profile'
 import Icons from './icons'
 import './post.css'
 

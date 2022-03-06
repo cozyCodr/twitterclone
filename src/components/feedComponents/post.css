@@ -1,7 +1,3 @@
-:root {
-    --twitterBlue: #1DA1F2;
-    --borderColor: rgba(255, 255, 255, 0.2);
-}
 .post-container {
     display: flex;
     height: 7rem;
